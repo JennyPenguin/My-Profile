@@ -23,15 +23,10 @@ li {
     color: #06070E;
 }
 
-h3 {
-    margin-bottom: 0px;
-    color: cadetblue;
-    text-decoration: underline;
-}
-
 h4 {
     margin-bottom: 0px;
     color: #422C59;
+    text-decoration: underline;
 }
 
 button {
@@ -221,4 +216,53 @@ table {
 
 .demo {
     background-color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.projectNav {
+    width: 100%;
+    background-color: #ffecf7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectNav a {
+    margin: 10px 5px;
+}
+
+.projectNav h1 {
+    padding: 20px 50px;
+}
+
+label {
+    color: #422C59;
+}
+
+.UnityDemo .leftColumn p {
+    color: #422c59;
+    margin: 15px 0;
+}
+
+.UnityDemo .leftColumn {
+    width: 50%;
+    display: inline-block;
+}
+
+h3 {
+    margin-bottom: 0px;
+    color: rgb(229, 0, 118);
+    text-decoration: underline;
+}
+
+.demoVideo {
+    display: inline-block;
+}
+
+.UnityDemo {
+    background-color: #f8ecff;
+    border-radius: 10px;
+    margin: 10px 5px;
 }

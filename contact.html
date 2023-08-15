@@ -9,55 +9,68 @@
 </head>
 
 <body>
-    <h1>Contact Me!</h1>
+    <header>
+        <nav class="projectNav">
+            <h1>Contact Me</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">CS Projects</a></li>
+                <li><a href="gallary.html">Gallary</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="Documents/Jennifer Zhu Resume.pdf">My Resume</a></li>
+            </ul>
+        </nav>
+    </header>
     <hr>
-    <p>I am always happy to help or join in projects! Please Contact me for any questions, requests, or offers. I would
-        love to hear them!</p>
-    <form action="">
-        <div>
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" placeholder="Enter your name" required>
-        </div>
-        <div>
-            <p><b>Why are you contacting me?</b></p>
-            <div> <label for="offers">Offers/Opportunities</label>
-                <input type="radio" name="reason" id="offers" value="offers">
+    <section>
+        <p>I am always happy to help or join in projects! Please Contact me for any questions, requests, or offers. I
+            would
+            love to hear them!</p>
+        <form action="">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
             </div>
-            <div><label for="friend">Connect as friends</label>
-                <input type="radio" name="reason" id="friend" value="friend">
+            <div>
+                <p><b>Why are you contacting me?</b></p>
+                <div> <label for="offers">Offers/Opportunities</label>
+                    <input type="radio" name="reason" id="offers" value="offers">
+                </div>
+                <div><label for="friend">Connect as friends</label>
+                    <input type="radio" name="reason" id="friend" value="friend">
+                </div>
+                <div><label for="help">Help/Asking For Advices</label>
+                    <input type="radio" name="reason" id="help" value="help">
+                </div>
+                <div> <label for="others">Offers/Opportunities</label>
+                    <input type="radio" name="reason" id="others" value="others">
+                </div>
+                <br>
+                <label for="message">Please enter your messages:</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
             </div>
-            <div><label for="help">Help/Asking For Advices</label>
-                <input type="radio" name="reason" id="help" value="help">
+            <div>
+                <p><b>Contact Information:</b></p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label for="phone">Phone Number:</label>
+                <input type="text" name="phone" id="phone" minlength="8" maxlength="9"
+                    placeholder="enter your number (optional)">
+                <br>
+                <label for="position">Your current position:</label>
+                <select name="position" id="position" required>
+                    <option value="">--Please Select An Option--</option>
+                    <option value="student">Student</option>
+                    <option value="working">working</option>
+                    <option value="retired">Retired</option>
+                </select>
             </div>
-            <div> <label for="others">Offers/Opportunities</label>
-                <input type="radio" name="reason" id="others" value="others">
-            </div>
-            <br>
-            <label for="message">Please enter your messages:</label>
-            <br>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
-        </div>
-        <div>
-            <p><b>Contact Information:</b></p>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required>
-            <br>
-            <label for="phone">Phone Number:</label>
-            <input type="text" name="phone" id="phone" minlength="8" maxlength="9"
-                placeholder="enter your number (optional)">
-            <br>
-            <label for="position">Your current position:</label>
-            <select name="position" id="position" required>
-                <option value="">--Please Select An Option--</option>
-                <option value="student">Student</option>
-                <option value="working">working</option>
-                <option value="retired">Retired</option>
-            </select>
-        </div>
-        <button>Submit</button>
-    </form>
+            <button>Submit</button>
+        </form>
+    </section>
     <br>
-    <div><a href="index.html">Go Back</a></div>
     <!-- 
     <form action="/inquries">
         <p>
