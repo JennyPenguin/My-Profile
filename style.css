@@ -283,3 +283,16 @@ h3 {
     background-color: #fd8aba;
     border-radius: 25px;
 }
+
+.gallary img {
+    width: 95%;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 15px;
+}
