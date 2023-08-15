@@ -288,7 +288,7 @@ h3 {
     width: 95%;
 }
 
-div {
+.gallary div {
     display: flex;
     align-items: center;
     justify-content: center;
