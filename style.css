@@ -1,0 +1,108 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #422C59;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    text-decoration: palevioletred underline dotted 4px;
+    color: #FF9CC5;
+    margin-bottom: 0px;
+}
+
+li {
+    color: #06070E;
+}
+
+h3 {
+    margin-bottom: 0px;
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+h4 {
+    margin-bottom: 0px;
+    color: #422C59;
+}
+
+button {
+    background-color: #297373;
+    color: white;
+}
+
+header li {
+    list-style-type: none;
+    display: inline;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    background-color: pink;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    font-size: large;
+    padding: 5px;
+    font-weight: bold;
+}
+
+li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: purple;
+    padding: 10px;
+    border-radius: 15px;
+    /* border-radius: 50% 10% / 10% 40%; */
+}
+
+a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: rgb(121, 3, 82);
+    padding: 10px;
+    border-radius: 15px;
+    /* border-radius: 50% 10% / 10% 40%; */
+}
+
+nav a:hover {
+    background-color: rgb(145, 0, 145);
+}
+
+body {
+    background-color: #ffecf7
+}
+
+p {
+    margin-top: 0px;
+    line-height: 1.5;
+    color: black;
+}
+
+section {
+    border-radius: 15px;
+    background-color: #faf7f9;
+    color: pink;
+}
+
+#intro {
+    display: inline;
+    width: 25%;
+    height: fit-content;
+}
+
+p::selection {
+    background-color: rgb(255, 238, 241);
+}
