@@ -278,3 +278,8 @@ h3 {
     padding: 10px 5px;
     border-radius: 10px;
 }
+
+.externalLink {
+    background-color: #fd8aba;
+    border-radius: 25px;
+}
